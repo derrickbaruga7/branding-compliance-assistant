@@ -6,6 +6,11 @@ export default defineConfig({
   server: {
     port: 3000,
     open: true
+  },
+  base: '/branding-compliance-assistant/',
+  build: {
+    outDir: 'dist',
+    sourcemap: true
   }
 })
 
