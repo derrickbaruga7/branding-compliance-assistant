@@ -22,10 +22,11 @@ jobs:
       uses: actions/setup-node@v4
       with:
         node-version: ${{ matrix.node-version }}
-        cache: 'npm'
         
-    - name: Install dependencies
-      run: npm ci
+    - name: Clean install dependencies
+      run: |
+        rm -rf node_modules package-lock.json
+        npm install
       
     - name: Build application
       run: npm run build
@@ -49,10 +50,11 @@ jobs:
       uses: actions/setup-node@v4
       with:
         node-version: '18.x'
-        cache: 'npm'
         
-    - name: Install dependencies
-      run: npm ci
+    - name: Clean install dependencies
+      run: |
+        rm -rf node_modules package-lock.json
+        npm install
       
     - name: Build application
       run: npm run build
@@ -62,4 +64,3 @@ jobs:
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         publish_dir: ./dist
-        cname: branding-compliance-assistant.github.io
