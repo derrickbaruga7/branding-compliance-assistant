@@ -1,0 +1,132 @@
+INNOVATE CORP - BRAND COLOR GUIDELINES
+
+=== PRIMARY BRAND COLORS ===
+
+Brand Blue: #1E40AF
+RGB: rgb(30, 64, 175)
+Usage: Primary elements, headlines, call-to-action buttons
+Contrast Ratio: AAA compliant
+
+Innovation Green: #059669
+RGB: rgb(5, 150, 105)
+Usage: Success states, positive feedback, growth indicators
+Contrast Ratio: AA compliant
+
+=== SECONDARY BRAND COLORS ===
+
+Neutral Gray: #6B7280
+RGB: rgb(107, 114, 128)
+Usage: Secondary text, subheadings, borders
+Contrast Ratio: AA compliant
+
+Light Background: #F9FAFB
+RGB: rgb(249, 250, 251)
+Usage: Page backgrounds, card backgrounds
+Contrast Ratio: High contrast with dark text
+
+Dark Text: #111827
+RGB: rgb(17, 24, 39)
+Usage: Primary text, headlines
+Contrast Ratio: AAA compliant
+
+=== ACCENT COLORS ===
+
+Warning Orange: #F59E0B
+RGB: rgb(245, 158, 11)
+Usage: Warning messages, caution indicators
+Contrast Ratio: AA compliant
+
+Error Red: #DC2626
+RGB: rgb(220, 38, 38)
+Usage: Error messages, alerts, critical actions
+Contrast Ratio: AAA compliant
+
+Info Blue: #2563EB
+RGB: rgb(37, 99, 235)
+Usage: Information messages, links
+Contrast Ratio: AAA compliant
+
+=== PROHIBITED COLORS ===
+
+NEON GREEN: #32CD32
+Reason: Too bright, conflicts with Innovation Green
+Not accessible, causes eye strain
+
+ELEcTric Pink: #FF1493
+Reason: Not aligned with brand personality
+Clashes with primary color scheme
+
+FLUORESCENT YELLOW: #FFFF00
+Reason: Poor readability, accessibility issues
+Too aggressive for professional brand
+
+PURPLE MAGENTA: #FF00FF
+Reason: Distracting, not professional
+Conflicts with established palette
+
+=== COLOR COMBINATIONS ===
+
+APPROVED COMBINATIONS:
+Primary Blue + White Background
+Innovation Green + Light Gray
+Dark Text + Light Background
+Brand Blue + Innovation Green (sparingly)
+
+PROHIBITED COMBINATIONS:
+Neon Green + Electric Pink
+Purple Magenta + White Text
+Fluorescent Yellow + Any Dark Color
+Multiple bright colors together
+
+=== ACCESSIBILITY REQUIREMENTS ===
+
+WCAG 2.1 AA Compliance:
+- Text contrast ratio minimum 4.5:1
+- Large text contrast ratio minimum 3:1
+- Color cannot be the only means of conveying information
+- Use patterns or labels in addition to color
+
+TESTING:
+- Test all color combinations for contrast
+- Verify readability in different lighting conditions
+- Ensure legibility for color-blind users
+
+=== USAGE GUIDELINES ===
+
+DO:
+- Use primary colors consistently
+- Test contrast ratios before implementation
+- Combine colors harmoniously
+- Consider cultural color meanings
+- Use neutral colors for supporting elements
+
+DON'T:
+- Use more than 4 colors in one design
+- Mix warm and cool colors randomly
+- Use colors below contrast requirements
+- Rely solely on color for meaning
+- Use prohibited colors under any circumstances
+
+=== IMPLEMENTATION CHECKLIST ===
+
+Brand Identity:
+[ ] Primary colors used consistently
+[ ] Secondary colors support primary palette
+[ ] Accent colors used sparingly
+[ ] Prohibited colors avoided completely
+
+Accessibility:
+[ ] Contrast ratios meet WCAG standards
+[ ] Color combinations tested for readability
+[ ] Alternative indicators beyond color
+[ ] Tested with various assistive technologies
+
+Consistency:
+[ ] Color values match brand specifications exactly
+[ ] Consistent color usage across all touchpoints
+[ ] Brand guidelines followed in all applications
+[ ] Team trained on proper color usage
+
+For technical specifications and color codes:
+Visit: www.innovatecorp.com/brand/colors
+Email: brand@innovatecorp.com

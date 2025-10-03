@@ -1,0 +1,125 @@
+ACME CORPORATION BRAND GUIDELINES
+
+=== BRAND OVERVIEW ===
+Acme Corporation is a modern technology company focused on innovation and user experience. Our brand represents trust, reliability, and cutting-edge solutions.
+
+=== LOGO USAGE ===
+Primary Logo Requirements:
+- Minimum width: 120px
+- Maximum width: 400px
+- Clear space: 20px minimum around logo
+- Approved backgrounds: White, transparent
+- Prohibited backgrounds: Black, dark colors
+
+Secondary Logo:
+- Minimum width: 80px
+- Maximum width: 300px
+- Clear space: 15px minimum
+- For dark backgrounds: Black color variant only
+
+Logo Do's:
+- Maintain clear space equal to height of letter "A" in logo
+- Use primary logo on light backgrounds
+- Use secondary logo on dark backgrounds
+- Scale proportionally
+
+Logo Don'ts:
+- Never distort or modify logo proportions
+- Never use below minimum width
+- Never place on busy backgrounds
+- Never add outlines or shadows
+
+=== COLOR PALETTE ===
+Primary Colors:
+#0066CC - Brand Blue (Primary brand color, use for headlines and important elements)
+#CC0000 - Brand Red (Accent color, use sparingly for highlights)
+
+Secondary Colors:
+#F5F5F5 - Light Gray (Backgrounds and subtle elements)
+#333333 - Dark Gray (Body text and secondary information)
+
+Prohibited Colors:
+#00FF00 - Neon Green (Too bright, conflicts with brand)
+#FF1493 - Hot Pink (Not part of brand palette, avoid at all costs)
+
+Color Usage Guidelines:
+- Primary blue should be used for headlines and important elements
+- Use maximum of 3 colors in any single design
+- Ensure sufficient contrast for accessibility (WCAG 2.1 AA)
+
+=== TYPOGRAPHY ===
+Primary Font: Helvetica Neue
+- Weights: Light (300), Regular (400), Semibold (600), Bold (700)
+- Size range: 12px minimum, 72px maximum
+- Line height: 1.4
+- Usage: Headlines, body text, navigation
+
+Secondary Font: Georgia
+- Weights: Regular (400), Bold (700)
+- Size range: 10px minimum, 48px maximum
+- Line height: 1.5
+- Usage: Quotations, special text blocks
+
+Typography Rules:
+- Never use text smaller than 12px
+- Ensure line height is readable (minimum 1.4)
+- Headlines should use semibold or bold weights
+- Body text should use regular weight
+
+=== SPACING & LAYOUT ===
+Margins:
+- Minimum page margins: 40px on all sides
+- Mobile margins: 20px on all sides
+
+Logo Clear Space:
+- Primary logo: 20px minimum
+- Secondary logo: 15px minimum
+
+Text Spacing:
+- Paragraph spacing: 16px minimum
+- Section spacing: 32px minimum
+- Element spacing: 20px minimum
+
+Grid System:
+- Use 12-column grid
+- Column gutter: 20px
+- Breakpoints: Mobile (768px), Tablet (1024px), Desktop (1200px+)
+
+=== GENERAL RULES ===
+1. Logo must maintain clear space equal to height of the "A" in the logo
+2. Primary color should be used for headlines and important elements
+3. Never use more than 3 colors in a single design
+4. Logo should never be smaller than 120px wide
+5. Text should never be smaller than 12px
+6. Always maintain 40px margins on all sides
+7. Ensure WCAG 2.1 AA accessibility compliance
+8. Maintain consistent spacing throughout designs
+9. Use the brand fonts consistently
+10. Test designs at different sizes and resolutions
+
+=== APPLICATION AREAS ===
+Digital Media:
+- Website headers and footers
+- Social media graphics
+- Email templates
+- Mobile applications
+
+Print Media:
+- Business cards
+- Letterheads
+- Brochures
+- Signage
+
+Product Design:
+- Product packaging
+- User interface elements
+- Software interfaces
+- Hardware design elements
+
+=== CONTACT INFORMATION ===
+For questions about brand guidelines:
+Email: brand@acmecorp.com
+Website: www.acmecorp.com/brand
+Phone: +1 (555) 123-4567
+
+Last Updated: January 2024

@@ -1,0 +1,176 @@
+CREATIVE STUDIO - TYPOGRAPHY GUIDELINES
+
+=== PRIMARY FONT FAMILY ===
+Font: Inter
+Type: Sans-serif modern typeface
+Character: Clean, readable, professional
+Usage: All digital interfaces, body text, headlines
+
+Weights Available:
+- Inter Light (300)
+- Inter Regular (400) - Default
+- Inter Medium (500)
+- Inter Semi Bold (600)
+- Inter Bold (700)
+
+=== SECONDARY FONT FAMILY ===
+Font: Source Serif Pro
+Type: Serif traditional typeface
+Character: Elegant, readable, academic
+Usage: Special content, quotes, formal documents
+
+Weights Available:
+- Source Serif Pro Regular (400)
+- Source Serif Pro Bold (700)
+
+=== SIZE HIERARCHY ===
+
+H1 PRIMARY HEADLINE
+Font: Inter Bold (700)
+Size: 48px (desktop), 32px (mobile)
+Line Height: 1.2
+Letter Spacing: -0.02em
+Usage: Main page titles, hero headlines
+
+H2 SECONDARY HEADLINE
+Font: Inter Semi Bold (600)
+Size: 32px (desktop), 28px (mobile)
+Line Height: 1.3
+Letter Spacing: -0.01em
+Usage: Section titles, major headings
+
+H3 TERTIARY HEADLINE
+Font: Inter Semi Bold (600)
+Size: 24px (desktop), 20px (mobile)
+Line Height: 1.4
+Letter Spacing: normal
+Usage: Subsection titles, card headlines
+
+H4 MINOR HEADLINE
+Font: Inter Medium (500)
+Size: 18px (desktop), 16px (mobile)
+Line Height: 1.4
+Letter Spacing: normal
+Usage: Component titles, small headings
+
+BODY TEXT
+Font: Inter Regular (400)
+Size: 16px (desktop), 14px (mobile)
+Line Height: 1.6
+Letter Spacing: normal
+Usage: Paragraphs, general content
+
+SMALL TEXT
+Font: Inter Regular (400)
+Size: 14px (desktop), 12px (mobile)
+Line Height: 1.5
+Letter Spacing: 0.01em
+Usage: Captions, metadata, fine print
+
+=== SPECIAL CASES ===
+
+QUOTES & TESTIMONIALS
+Font: Source Serif Pro Regular (400)
+Size: 18px (desktop), 16px (mobile)
+Line Height: 1.5
+Style: Italic for quotes
+Usage: Customer testimonials, inspirational quotes
+
+BUTTON TEXT
+Font: Inter Medium (500)
+Size: 16px
+Line Height: 1.2
+Letter Spacing: 0.01em
+Usage: Call-to-action buttons, navigation
+
+=== ACCESSIBILITY STANDARDS ===
+
+Minimum Text Size: 14px
+Legible Line Height: Minimum 1.5 for body text
+Color Contrast: WCAG 2.1 AA compliant
+Readable Fonts: No decorative or script fonts for body text
+
+Visual Hierarchy Requirements:
+- Clear distinction between heading levels
+- Consistent spacing between elements
+- Adequate contrast with backgrounds
+
+=== RESPONSIVE BEHAVIOR ===
+
+Desktop (1200px+):
+- Larger font sizes for readability
+- Generous line spacing
+- Wide character spacing where appropriate
+
+Tablet (768px - 1199px):
+- Medium font sizes
+- Balanced spacing
+- Optimized for touch interfaces
+
+Mobile (below 768px):
+- Smaller font sizes for space efficiency
+- Tighter but readable line spacing
+- Touch-friendly sizing
+
+=== PROHIBITED USAGE ===
+
+NEVER USE:
+- Comic Sans or decorative fonts for body text
+- Font sizes smaller than 12px
+- Fonts with poor readability
+- Excessive font weight variations
+- Inconsistent line heights
+- Poorly spaced letter combinations
+
+=== IMPLEMENTATION RULES ===
+
+DO:
+- Use Inter as primary font for consistency
+- Apply appropriate font weights for hierarchy
+- Maintain consistent line heights
+- Test readability across devices
+- Ensure proper rendering in all browsers
+
+DON'T:
+- Mix too many fonts in one design
+- Use fonts smaller than 12px
+- Ignore responsive behavior
+- Combine conflicting font styles
+- Overlook accessibility requirements
+
+=== TECHNICAL SPECIFICATIONS ===
+
+Font Files:
+- WOFF2: Modern browsers (primary)
+- WOFF: Fallback for older browsers
+- TTF: System fallback
+
+Font Loading:
+- Use font-display: swap for performance
+- Preload critical font files
+- Optimize for faster loading
+
+Browser Support:
+- Chrome: Full support
+- Firefox: Full support
+- Safari: Full support
+- Edge: Full support
+
+=== PREVIEW EXAMPLES ===
+
+HEADLINE EXAMPLE:
+Innovative Solutions for Modern Businesses
+(Inter Bold, 32px, #1F2937)
+
+BODY TEXT EXAMPLE:
+We create exceptional digital experiences that drive results. Our team combines creativity with technical expertise to deliver solutions that exceed expectations.
+(Inter Regular, 16px, #374151)
+
+QUOTE EXAMPLE:
+"The best brands tell a story that connects with people on an emotional level."
+(Source Serif Pro Regular Italic, 18px, #6B7280)
+
+=== CONTACT ===
+Typography questions: design@creativestudio.com
+Font downloads: www.creativestudio.com/fonts
+Guidelines PDF: Available upon request

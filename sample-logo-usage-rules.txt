@@ -1,0 +1,74 @@
+TECHSTART INC - LOGO USAGE GUIDELINES
+
+=== LOGO SPECIFICATIONS ===
+
+PRIMARY LOGO (Light Backgrounds)
+Minimum Size: 120px wide
+Maximum Size: 400px wide
+Clear Space: 20px minimum
+File Format: PNG with transparency, SVG vector
+Usage: White backgrounds, light materials
+
+SECONDARY LOGO (Dark Backgrounds)
+Minimum Size: 80px wide
+Maximum Size: 300px wide
+Clear Space: 15px minimum
+File Format: PNG with transparency, SVG vector
+Usage: Dark backgrounds, dark materials
+
+=== CLEAR SPACE RULE ===
+The logo must have clear space equivalent to the height of the "T" in TechStart logo on all sides. This ensures the logo stands out properly and maintains visual impact.
+
+=== APPROVED BACKGROUNDS ===
+Primary Logo:
+- Pure white (#FFFFFF)
+- Transparent
+- Light gray (#F5F5F5)
+
+Secondary Logo:
+- Pure black (#000000)
+- Dark blue (#002244)
+- Dark gray (#333333)
+
+=== PROHIBited BACKGROUNDS ===
+Never use logo on:
+- Busy or cluttered backgrounds
+- Gradients without approval
+- Images without sufficient contrast
+- Patterns or textures
+- Multi-colored backgrounds
+
+=== LOGO MISUSE ===
+DO NOT:
+- Stretch or distort proportions
+- Change colors
+- Add shadows or effects
+- Rotate the logo
+- Place in confined spaces
+- Use below minimum size
+- Modify spacing between elements
+
+=== PROPER USAGE ===
+DO:
+- Maintain original proportions
+- Use appropriate variant for background
+- Ensure clear space compliance
+- Scale uniformly
+- Use high-quality files
+- Test visibility at different sizes
+
+=== SIZE GUIDELINES ===
+Business Cards: Minimum 120px
+Letterheads: 200px recommended
+Website Headers: 160px recommended
+Social Media: 200x200px profile image
+Mobile Apps: 120px minimum
+Billboards: 400px maximum with 20px clear space
+
+=== FILE FORMATS ===
+Print: PDF, EPS, SVG
+Web: PNG, SVG, WebP
+Social Media: PNG with transparency
+Mobile: PNG, SVG scalable format
+
+Contact for logo files: design@techstart.com
