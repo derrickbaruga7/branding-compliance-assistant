@@ -33,11 +33,11 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/your-username/branding-compliance-assistant.git"
+    "url": "https://github.com/derrickbaruga7/branding-compliance-assistant.git"
   },
-  "homepage": "https://your-username.github.io/branding-compliance-assistant",
+  "homepage": "https://derrickbaruga7.github.io/branding-compliance-assistant",
   "bugs": {
-    "url": "https://github.com/your-username/branding-compliance-assistant/issues"
+    "url": "https://github.com/derrickbaruga7/branding-compliance-assistant/issues"
   },
   "dependencies": {
     "react": "^18.2.0",
