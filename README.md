@@ -21,8 +21,13 @@ A comprehensive real-time branding compliance checker for designers and illustra
 
 ## 🚀 Quick Start
 
+### 🌐 Live Demo
+**Try the app now**: [https://derrickbaruga7.github.io/branding-compliance-assistant](https://derrickbaruga7.github.io/branding-compliance-assistant)
+
 ### 1. Installation
 ```bash
+git clone https://github.com/derrickbaruga7/branding-compliance-assistant.git
+cd branding-compliance-assistant
 npm install
 ```
 
