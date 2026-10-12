@@ -64,7 +64,10 @@ const IllustrationCanvas = ({ brandingData, onComplianceCheck, onBack }) => {
       console.error('Compliance check failed:', error)
       setComplianceStatus({
         overall: 'error',
-        message: 'Failed to check compliance'
+        message: 'Failed to check compliance',
+        issues: [{ type: 'analysis', severity: 'error', message: 'Analysis failed. Try another image.' }],
+        suggestions: [],
+        details: {}
       })
     } finally {
       setIsChecking(false)

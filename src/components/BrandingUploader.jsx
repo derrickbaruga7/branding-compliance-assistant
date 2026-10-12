@@ -33,9 +33,7 @@ const BrandingUploader = ({ onUpload }) => {
   const { getRootProps, getInputProps, isDragActive } = useDropzone({
     onDrop,
     accept: {
-      'application/pdf': ['.pdf'],
       'application/vnd.openxmlformats-officedocument.wordprocessingml.document': ['.docx'],
-      'application/msword': ['.doc'],
       'image/png': ['.png'],
       'image/jpeg': ['.jpg', '.jpeg'],
       'text/plain': ['.txt']
@@ -71,7 +69,6 @@ const BrandingUploader = ({ onUpload }) => {
             <div className="supported-formats">
               <span>Supported formats:</span>
               <div className="format-tags">
-                <span className="format-tag">PDF</span>
                 <span className="format-tag">DOCX</span>
                 <span className="format-tag">PNG</span>
                 <span className="format-tag">JPG</span>
@@ -97,12 +94,12 @@ const BrandingUploader = ({ onUpload }) => {
       )}
 
       <div className="upload-info">
-        <h4>What we'll extract from your guidelines:</h4>
+        <h4>What this prototype extracts:</h4>
         <ul>
-          <li><FileText size={16} /> Logo usage rules and restrictions</li>
-          <li><Image size={16} /> Color palette and usage guidelines</li>
-          <li><AlertCircle size={16} /> Typography specifications</li>
-          <li><CheckCircle size={16} /> Spacing and sizing requirements</li>
+          <li><FileText size={16} /> Text lines mentioning logo and design rules</li>
+          <li><Image size={16} /> Hex colors from text or sampled image colors</li>
+          <li><AlertCircle size={16} /> Review typography against the original guidelines</li>
+          <li><CheckCircle size={16} /> Review spacing and sizes manually</li>
         </ul>
       </div>
     </div>

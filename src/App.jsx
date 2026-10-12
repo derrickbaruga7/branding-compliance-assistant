@@ -88,6 +88,7 @@ function App() {
       </header>
 
       <main className="app-main">
+        <p role="note">Prototype: sampled color checks only. Logo, typography, and spacing need manual review.</p>
         {renderStep()}
       </main>
 
