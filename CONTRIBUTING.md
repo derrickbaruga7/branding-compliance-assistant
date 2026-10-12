@@ -5,8 +5,8 @@ Thank you for your interest in contributing to the Branding Compliance Assistant
 ## 🚀 Getting Started
 
 ### Prerequisites
-- Node.js (v16 or higher)
-- npm or yarn
+- Node.js 22 or newer (Node 24 is selected in `.nvmrc`)
+- npm 9 or newer
 - Git
 
 ### Development Setup
@@ -18,18 +18,18 @@ Thank you for your interest in contributing to the Branding Compliance Assistant
    ```
 3. Install dependencies:
    ```bash
-   npm install
+   npm ci
    ```
 4. Start the development server:
    ```bash
    npm run dev
    ```
-5. Open http://localhost:3000 in your browser
+5. Open http://localhost:3000/branding-compliance-assistant/ in your browser
 
 ## 🛠️ Development Guidelines
 
 ### Code Style
-- Use ESLint and Prettier for code formatting
+- Match the existing code style; no formatter or lint configuration is currently included
 - Follow React best practices
 - Use functional components with hooks
 - Write meaningful commit messages
@@ -77,12 +77,8 @@ npm test
 - Test user interactions
 
 ### Test Structure
-```
-__tests__/
-├── components/        # Component tests
-├── services/         # Service tests
-└── utils/           # Utility function tests
-```
+
+Tests live in `tests/*.test.mjs` and run with Node’s built-in test runner. The current suite covers the compliance service. Run `npm run build` after tests to check JSX compilation.
 
 ## 📝 Documentation
 

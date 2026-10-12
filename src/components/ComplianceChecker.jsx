@@ -2,6 +2,8 @@ import React, { useState } from 'react'
 import { ArrowLeft, Download, RefreshCw, CheckCircle, AlertTriangle, XCircle, FileText, Palette, Ruler, Type } from 'lucide-react'
 
 const ComplianceChecker = ({ results, brandingData, onBack, onNewProject }) => {
+  const formatMeasurement = (value, fallback = 'Not assessed') => Number.isFinite(value) ? `${Math.round(value)}px` : fallback
+
   const [activeTab, setActiveTab] = useState('overview')
 
   const getStatusIcon = (status) => {
@@ -132,19 +134,19 @@ const ComplianceChecker = ({ results, brandingData, onBack, onNewProject }) => {
             <div className="specs-grid">
               <div className="spec-item">
                 <span className="spec-label">Current Size:</span>
-                <span className="spec-value">{Math.round(results.details.logo.logoSize)}px</span>
+                <span className="spec-value">{formatMeasurement(results.details.logo.logoSize)}</span>
               </div>
               <div className="spec-item">
                 <span className="spec-label">Clear Space:</span>
-                <span className="spec-value">{Math.round(results.details.logo.clearSpace)}px</span>
+                <span className="spec-value">{formatMeasurement(results.details.logo.clearSpace)}</span>
               </div>
               <div className="spec-item">
                 <span className="spec-label">Min Required:</span>
-                <span className="spec-value">{brandingData.logo?.primary?.minWidth || 120}px</span>
+                <span className="spec-value">{formatMeasurement(brandingData.logo?.primary?.minWidth, 'Not specified')}</span>
               </div>
               <div className="spec-item">
                 <span className="spec-label">Max Recommended:</span>
-                <span className="spec-value">{brandingData.logo?.primary?.maxWidth || 400}px</span>
+                <span className="spec-value">{formatMeasurement(brandingData.logo?.primary?.maxWidth, 'Not specified')}</span>
               </div>
             </div>
           </div>
@@ -164,19 +166,19 @@ const ComplianceChecker = ({ results, brandingData, onBack, onNewProject }) => {
             <div className="margins-grid">
               <div className="margin-item">
                 <span className="margin-label">Top:</span>
-                <span className="margin-value">{Math.round(results.details.spacing.margins.top)}px</span>
+                <span className="margin-value">{formatMeasurement(results.details.spacing.margins.top)}</span>
               </div>
               <div className="margin-item">
                 <span className="margin-label">Right:</span>
-                <span className="margin-value">{Math.round(results.details.spacing.margins.right)}px</span>
+                <span className="margin-value">{formatMeasurement(results.details.spacing.margins.right)}</span>
               </div>
               <div className="margin-item">
                 <span className="margin-label">Bottom:</span>
-                <span className="margin-value">{Math.round(results.details.spacing.margins.bottom)}px</span>
+                <span className="margin-value">{formatMeasurement(results.details.spacing.margins.bottom)}</span>
               </div>
               <div className="margin-item">
                 <span className="margin-label">Left:</span>
-                <span className="margin-value">{Math.round(results.details.spacing.margins.left)}px</span>
+                <span className="margin-value">{formatMeasurement(results.details.spacing.margins.left)}</span>
               </div>
             </div>
           </div>
@@ -184,7 +186,7 @@ const ComplianceChecker = ({ results, brandingData, onBack, onNewProject }) => {
           <div className="analysis-section">
             <h4>Required Margins</h4>
             <div className="required-margins">
-              <p>Minimum margin: {brandingData.spacing?.pageMargins || 40}px on all sides</p>
+              <p>Minimum margin: {formatMeasurement(brandingData.spacing?.pageMargins, 'Not specified')} on all sides</p>
             </div>
           </div>
         </div>
